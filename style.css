@@ -1,0 +1,26 @@
+#navbar{ display:flex; background-color: grey;height:8%; width:100%; opacity:0.67; position:sticky;top:0px;left:0px}
+#logo img{ margin:5px 40px; height: 50px;width: 70px; padding: 15px 20 px; border-radius:25%}
+
+#navbar ul{ display: flex }
+#navbar ul li{ list-style: none}
+#navbar ul li a{ padding: 10px 20px; text-decoration: none; display: block;color:white}
+#navbar ul a:hover{background-color:white; border-radius:25%;}
+#home{ display: flex; flex-direction:column; padding:30px 20px; align-items:center; justify-content: center;background:url('pp.jpg');
+height:150%; width:97.5%; opacity:0.89;z-index:-1; height:400px;top:0px;left:0px}
+.primary{font-size:2.5rem; padding: 12px}
+#home h1{ color:white; text-align:center}
+#home p{ color:white; text-align:right; margin: 5px 15px; font-family:'bree serif',serif}
+.b1{padding: 6px 12px; border:2px solid white;background-color:grey; margin:15px 10px;font-size: 1rem;border-radius:10%;cursor:pointer}
+.s1{ border: 2px solid red;height:35%; width:25%;margin:10px 5px; padding:30px 50px;text-align:center;border-radius:5%;background-color:lightgrey}
+#services{display:flex}
+.s1 img{border-radius:5%}
+.secondary h1{ text-align:center; margin:50px 15px;font-size:2.5rem}
+#elements{display:flex; align-items:center; justify-content:center}
+.client-item{padding:34px}
+
+#elements{background:url('b1.jpg'); opacity:0.3; height:50% }
+.center{ background-color:black; color:white; text-align:center}
+.contact{background: url('c2.jpg'); opacity:0.5}
+.detail{text-align:center; color:black;font-size:2rem}
+.form{display:flex;justify-content:center; align-items:center; padding-bottom:24px; color:black; font-size:1rem; margin:15px 10px}
+.form textarea{border-radius:12px; width:80%}
